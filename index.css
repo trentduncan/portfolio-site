@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-size: cover;
+    background-position: center; 
+    margin:0;
+  }
+  
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: #FFFFF0;
+  }
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: relative;
+    background-color: #3D6271;
+}
+
+.landing-wrapper {
+    /*if this is still here remove this div  */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  padding-top: 30vh;
+}
+
+.landing i {
+    position: absolute;
+    bottom: 10px;
+    font-size: 3em;
+}
