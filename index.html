@@ -4,19 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     
     <title>Trent's Portfolio</title>
 </head>
 <body>
-    <header class="landing">
-        <div class="landing-wrapper">
-            <h1>Trent Duncan</h1>
-            <p>I like learning and stuff</p>
-        </div>
-        <i class="fas fa-angle-down"></i>   
-    </header> 
+    <main>
+        <header class="landing">
+            <div class="landing-wrapper">
+                <h1>Trent Duncan</h1>
+                <p>I like learning and stuff</p>
+            </div>
+            <i class="fas fa-angle-down"></i>   
+        </header>
+        <section class="projects-wrapper">
+          <div class="individual-project">
+            <div class="project-text">
+                <h2>TeamBuilder</h2>
+                <p>Overwatch is a competitive video game based heavily around having cooperative 
+                    teammates, and TeamBuilder is a full stack app designed to help players network to 
+                    find teammates with complementary skill sets. Users create a profile highlighting their 
+                    main skills as a player and can browse other user profiles.</p>
+                <a href="#">Live Demo</a> <a href="#">Code</a>
+                <h3>React/Redux, Node, Express, MongoDB</h3>
+            </div>
+            <div class="thumbnail">
+                <img src="/screenshots/teambuilder.png"/ alt="team-builder">
+            </div>
+          </div>
+        </section>
+        <section class="about-me-wrapper">
+          <div>
+              <img src="/screenshots/headshot.png" alt="headshot"/> 
+          </div>
+        </section>
+    </main> 
 </body>
 </html>
